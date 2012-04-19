@@ -1,0 +1,63 @@
+/* Last Updated: 12-2010
+   Author:  Your Name Here
+            Company Name Here
+Style Defs: 
+	* dimensions (width, height) styles
+    * positioning (with coordinates) styles
+    * float/clearstyles
+	* spacing (margin, padding, border) styles
+    * display/visibility styles
+    * typography-related (line-height, color, etc.) styles
+    * miscellaneous (list-style, cursors, etc.) styles
+
+Sections:
+	=GENERAL (page background / fonts, general tags
+	=PAGE LAYOUT
+		==CONTAINER
+		==HEADER
+		==CONTENT
+		==FOOTER
+   ----------------------------------------------------*/
+
+/* =GENERAL
+   ----------------------------------------------------*/
+   
+body {
+	background: transparent none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #202020;
+}
+
+
+
+a {
+	color: #202020;
+	text-decoration: underline;
+	
+	-o-transition: all .4s ease;
+	-ms-transition: all .4s ease;
+	-moz-transition: all .4s ease;
+	-webkit-transition: all .4s ease;
+	transition: all .4s ease;
+}
+
+a:hover {
+	color: #000;
+}
+
+a:active {
+	color: #000;
+    outline: 0 none;
+}
+
+a:focus {
+	color: #fff;
+    outline: 0 none;
+}
+
+strong {font-weight: bold;}
+em {font-style: italic;}
+
+.error {font-weight: bold}
+.clear {clear: both;}
