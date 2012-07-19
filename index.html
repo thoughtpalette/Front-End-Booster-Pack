@@ -1,5 +1,4 @@
 <!doctype html>
-<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
@@ -83,8 +82,9 @@
 	
 	<!--Other JavaScript Libraries and Plugins-->
 	
-	<script src="js/lib/selectivizr.min.js"></script>
-	<script src="js/lib/jquery.mailcheck.js"></script>
+	<!--[if lt IE 9]> 
+		<script src="js/lib/selectivizr.min.js"></script>
+	<![endif]-->		
 	
 	<!--Application JavaScript-->
 	<script src="js/app/app.core.js"></script>
